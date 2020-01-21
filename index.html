@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Software Engineering - Google search</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="header">
+        <div id="topbar">
+            <img id="searchbarimage" src="https://www.edigitalagency.com.au/wp-content/uploads/small-google-logo-png-transparent-background-600x200.png"/>
+            <div id="searchbar" type="text">
+                <input id="searchbartext" type="text" value="Software engineering in stutern" />
+                <button id="searchbarmic">
+                    <img src="https://icon2.cleanpng.com/20180410/kbw/kisspng-microphone-google-voice-google-search-google-logo-microphone-5accc7045909d9.1630438915233697323647.jpg" />
+                </button>
+                <button id="searchbarbutton">
+                    <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+
+            <div id="boxesicon"></div>
+            <div id="bellicon"></div>
+            <img id="profileimage" src="data:image/jpeg;base64,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"/>
+        </div>
+        <div id="optionsbar">
+            <ul id="optionsmenu1">
+                <li id="optionsmenuactive">All</li>
+                <li>News</li>
+                <li>Videos</li>
+                <li>Images</li>
+                <li>Maps</li>
+                <li>More</li>
+            </ul>
+
+            <ul id="optionsmenu2">
+                <li>Settings</li>
+                <li>Tools</li>
+            </ul>
+        </div>
+    </div>
+    <div id="searchresultsarea">
+        <p id="searchresultsnumber">About 200,000 results (0.56 seconds) </p>
+        <div class="searchresult">
+            <h2>Stutern on Twitter: "New classes in Front end Development, UI - Wikipedia</h2>
+            <a>https://en.wikipedia.org/wiki/Lock_(stutern)</a> <button>▼</button>
+            <p>Aug 21, 2019 - New classes in Front end Development, UI/UX Design, Software Engineering, Data Science/Machine Learning, Data Engineering, Android ...</p>
+            <p> environment where there are many threads of execution.</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Stutern</h2>
+            <a>www.stutern.com</a> <button>▼</button>
+            <p>Tackling youth unemployment in Africa. We are closing the gap between youth unemployment and entry-level jobs in the technology industry. Get Started.</p>
+            <p>results in node i + 1 not being removed. In computer science, mutual exclusion is a property of concurrency control, which is instituted ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>React Native Developer - Stutern</h2>
+            <a>app.stutern.com › job_postings</a> <button>▼</button>
+            <p>Front-end Web Developer Software Engineering/Web Development ... We are looking for a Rockstar React Native Developer skilled at building apps that feel ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Product Manager at Babban Gona - Stutern</h2>
+            <a>https://app.stutern.com/app.stutern.com › job_postings</a> <button>▼</button>
+            <p>Product Manager Software Engineering/Web Development ... i.e. a seasoned engineer with demonstrated experience in managing a worldclass design team to ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Javascript Mobile Developer (React Native) - Stutern</h2>
+            <a>app.stutern.com › job_postings</a> <button>▼</button>
+            <p>... (React Native). Mobile Developer Software Engineering/Web Development ... This is an entry level position for an aspiring mobile developer. Your primary ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Ozurumba Obinna - Software Engineer - Stutern | LinkedIn</h2>
+            <a>ng.linkedin.com › ...</a> <button>▼</button>
+            <p>View Ozurumba Obinna's profile on LinkedIn, the world's largest professional community. Oluwafemi has 4 jobs listed on their profile. See the complete profile ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Concurrency (computer science): If a binary semaphore can be used ...</h2>
+            <a>https://www.quora.com/Concurrency-computer-sciencet</a> <button>▼</button>
+            <p>Mar 29, 2016 - You might want to see What is the difference between a mutex and a semaphore? especially Quora User answer to it. A binary semaphore is semantically same ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Stutern | Crunchbase</h2>
+            <a>https://stackoverflow.com/questions/34524/what-is-a-mutex</a> <button>▼</button>
+            <p>Stutern connects talents with jobs from Campus Ambassadors to one-off gigs to Software Engineering...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>Is Stutern The Best In Lagos?  ...</h2>
+            <a>https://www.reddit.com/r/explainlikeimfive/</a> <button>▼</button>
+            <p>Today's fun fact: The word "mutex" is shorthand for "mutual exclusion". The more you know... A mutex is basically a programmatic device that ...</p>
+        </div>
+
+        <div class="searchresult">
+            <h2>My Journey into Tech - codeburst</h2>
+            <a>https://geekgirldecodes.com/2016/09/13/mutex-and-semaphore/</a> <button>▼</button>
+            <p>Dec 6, 2017 - The struggle began, do I want to go into software or hardware, do I want to code ... I went for an interview and I was asked if I was a frontend developer or a ... In summary, the mail says Stutern would be launching a Graduate ...</p>
+        </div>
+        <div class="relatedsearches">
+            <h3>Searches related to Software engineering  Stutern</h3>
+            <div class="relatedlists">
+                <ul class="relatedleft">
+                    <li>what is <b>Stutern</b> and Coding</li>
+                    <li><b>Stutern</b> lock c++</li>
+                    <li><b>Stutern</b> java</li>
+                    <li><b>Stutern</b> c++</li>
+                </ul>
+                <ul class="relatedright">
+                    <li><b>Stutern</b> vs CChub</li>
+                    <li><b>Stutern</b>  example</li>
+                    <li><b>Stutern</b> and semaphore example in c</li>
+                    <li><b>Stutern</b> c#</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="pagebar">
+            <ul class="pagelist">
+                <li class="pagelistprevious">Previous</li>
+                <li class="pagelistfirst">1</li>
+                <li class="pagelistnumber">2</li>
+                <li class="pagelistnumber">3</li>
+                <li class="pagelistnumber">4</li>
+                <li class="pagelistnumber">5</li>
+                <li class="pagelistnumber">6</li>
+                <li class="pagelistnumber">7</li>
+                <li class="pagelistnumber">8</li>
+                <li class="pagelistnumber">9</li>
+                <li class="pagelistnumber">10</li>
+                <li class="pagelistnext">Next</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footerlocation">
+            <p>Nigeria! Gbagada, Lagos </p>
+            <p> - From your Location History - Use precise location - Learn more</p>
+        </div>
+
+        <ul id="footermenu">
+            <li>Help</li>
+            <li>Send feedback</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+        </ul>
+    </div>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
